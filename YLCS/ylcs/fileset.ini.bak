@@ -1,0 +1,9 @@
+[file]
+;搜索路径
+filepath=D:\360Downloads\103\
+;接口类型 100 登录  202 委托
+apitype=101
+;资金账号/客户号
+zjzh=10192789
+;文件导出路径
+excelfile=D:\360Downloads\10192789.xlsx

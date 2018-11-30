@@ -1,0 +1,15 @@
+查询离线消息
+消息列表(包含各个状态)存储于mongodb,tdx_cms中c_user_msg表中
+步骤:
+1 进入tdx_cms数据库
+  use tdx_cms
+2 查询离线消息
+  db.c_user_msg.find({tdxid:{$ne:""},post2c:0})
+  表字段中如果tdxid不为空且post2c字段为0，查询离线消息
+  db.c_user_msg.find({tdxid:{$ne:""},post2c:0}).count()
+  查询离校消息条数
+3 查询失败消息
+	db.c_user_msg.find({tdxid:""})
+  查询推送失败消息
+	db.c_user_msg.find({tdxid:""}).count()
+  查询推送失败消息条数

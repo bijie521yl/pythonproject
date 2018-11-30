@@ -1,0 +1,3 @@
+[console_scripts]
+hello = ylcs.tpycs:main
+

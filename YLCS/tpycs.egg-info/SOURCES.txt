@@ -1,0 +1,9 @@
+setup.py
+YLCS/__init__.py
+YLCS/tpycs.py
+tpycs.egg-info/PKG-INFO
+tpycs.egg-info/SOURCES.txt
+tpycs.egg-info/dependency_links.txt
+tpycs.egg-info/entry_points.txt
+tpycs.egg-info/top_level.txt
+tpycs.egg-info/zip-safe
